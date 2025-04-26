@@ -3,16 +3,16 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "inventario";
+$dbname = "app-inventory";
  
 // Textos por defecto de la interfaz de la aplicación 
 $nombreAplicacion = "Gestor de material y usuarios"; 
 $nombreSeccion = ""; 
 //Personalización de la aplicación
-$title = "Gestor de Inventario";
-$logotipo = "assets/images/Reduccion_Colores_01.png";
+$title = "Almazen Legacy";
+$logotipo = "assets/images/LogoGarci_Redondo.png";
 //URL principal
 $baseURL = __DIR__ . "/../";
-$baseURLClient = "http://localhost:8080/";
+$baseURLClient = "http://localhost/inventory-app-legacy/";
 // Identificación de la instalación
-$client = "CL67f1a3ac4c2b4";
+$client = "CL6807f8ece973d";

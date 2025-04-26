@@ -74,7 +74,7 @@ function buscahijos ($id, &$rows, $level){
                         print '<li class="nav-parent"><a href="#"><i class="' . $row['icono'] . '" aria-hidden="true"></i><span>' .
                             $row['nombre']. '</span></a>';
                         print '<ul class="nav nav-children">';
-                        buscahijos ($row[id], $rows, $level+1); //Contruimos el menú de sus 
+                        buscahijos ($row['id'], $rows, $level+1); //Contruimos el menú de sus 
                         print '</ul></li>';
                     }
                 }
