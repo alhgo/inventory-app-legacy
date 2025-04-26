@@ -1,7 +1,7 @@
 .idea
 installed
 /code/config*.php
-/temp
+#/temp
 /images/*
 !/images/No_imagen.jpg
 /userimages/*
